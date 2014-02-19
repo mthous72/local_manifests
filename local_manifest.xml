@@ -13,5 +13,5 @@
   <project name="android_device_allwinner_common" path="device/allwinner/common" remote="allwinner" revision="master" />
   <project name="android_device_allwinner_zatab" path="device/allwinner/zatab" remote="allwinner" revision="cm-10.1" />
   <project name="android_device_a700" path="device/allwinner/a700" remote="allwinner" revision="master" />
-  <project name="proprietary_vendor_allwinner" path="vendor/allwinner" remote="allwinner" revision="cm-10.1" />
+  <project name="proprietary_vendor_allwinner" path="vendor/allwinner/a700/proprietary" remote="allwinner" revision="cm-10.1" />
 </manifest>
