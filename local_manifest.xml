@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://github.com/mthous72/" name="allwinner" />
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="CyanogenMod/android_frameworks_native" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <project name="android_external_cedarx" path="external/cedarx" remote="allwinner" revision="cm-10.1" />
+  <project name="android_hardware_realtek" path="hardware/realtek" remote="allwinner" revision="jellybean" />
+  <project name="linux-allwinner" path="kernel/allwinner/a700" remote="allwinner" revision="allwinner-v3.0-android-v2" />
+  <project name="android_frameworks_av" path="frameworks/av" remote="allwinner" revision="cm-10.1-aml_" />
+  <project name="android_frameworks_native" path="frameworks/native" remote="allwinner" revision="jellybean-cm" />
+  <project name="android_frameworks_base" path="frameworks/base" remote="allwinner" revision="cm-10.1-aml_" />
+  <project name="android_device_allwinner_common" path="device/allwinner/common" remote="allwinner" revision="master" />
+  <project name="android_device_allwinner_zatab" path="device/allwinner/zatab" remote="allwinner" revision="cm-10.1" />
+  <project name="android_device_a700" path="device/allwinner/a700" remote="allwinner" revision="master" />
+  <project name="proprietary_vendor_allwinner" path="vendor/allwinner" remote="allwinner" revision="cm-10.1" />
+</manifest>
