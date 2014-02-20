@@ -33,7 +33,7 @@ NOTE: You may need to reboot for these changes to take effect.
 Now enter the following to initialize the repository:
 cd ~/android/system/
 repo init -u git://github.com/CyanogenMod/android.git -b CM-10.1
-wget https://github.com/mthous72/local_manifest.xml -O .repo/local_manifests/local_manifest.xml
+wget https://github.com/mthous72/local_manifests/local_manifest.xml -O .repo/local_manifests/local_manifest.xml
 repo sync -j16 -f
 
 To Build CM
