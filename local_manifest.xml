@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/mthous72/" name="allwinner" />
+  <remove-project name="CyanogenMod/android_device_generic_mips" />
+  <remove-project name="CyanogenMod/android_device_generic_x86" />
+  <remove-project name="CyanogenMod/android_device_google_accessory_arduino" />
+  <remove-project name="CyanogenMod/android_device_google_accessory_demokit" />
+  <remove-project name="CyanogenMod/android_device_sample" />
+  <remove-project name="CyanogenMod/android_device_ti_panda" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
+  <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
   <project name="linux-allwinner" path="kernel/allwinner/common" remote="allwinner" revision="allwinner-v3.0-android-v2" />
   <project name="android_device_allwinner_common" path="device/allwinner/common" remote="allwinner" revision="master" />
   <project name="android_device_a700" path="device/allwinner/nuclear_inet" remote="allwinner" revision="master" />
